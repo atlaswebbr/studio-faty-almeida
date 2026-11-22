@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studio de Beleza Faty Almeida | Especialista em Loiros &amp; Transformação Capilar</title>
+  <meta name="description" content="Há 23 anos transformando cabelos em Alagoinhas - BA. Especialista em loiros, mechas, selagem, tratamentos capilares e beleza completa. Agende pelo WhatsApp!" />
+  <link rel="icon" type="image/jpeg" href="logo-faty-almeida.jpg" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #120813;
+    }
+    .hero-glow {
+      background: radial-gradient(circle at 80% 15%, rgba(217, 70, 239, 0.22), transparent 45%),
+                  radial-gradient(circle at 15% 80%, rgba(245, 158, 11, 0.14), transparent 50%),
+                  linear-gradient(180deg, #1b0c1d 0%, #120813 100%);
+    }
+  </style>
+</head>
+<body class="text-stone-100 antialiased selection:bg-fuchsia-400 selection:text-stone-950">
+
+  <script>
+    const STUDIO_CONFIG = {
+      nome: "Studio de Beleza Faty Almeida",
+      whatsapp: "5575981120059",
+      telefoneFormatado: "(75) 98112-0059",
+      instagram: "https://www.instagram.com/studiodebelezafatyalmeida/"
+    };
+  </script>
+
+  <!-- Navbar -->
+  <header class="sticky top-0 z-40 bg-[#120813]/90 backdrop-blur-xl border-b border-fuchsia-950/80">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#topo" class="flex items-center gap-3">
+        <div class="w-11 h-11 rounded-full overflow-hidden bg-fuchsia-950 border-2 border-fuchsia-400/70 shadow-md shrink-0">
+          <img
+            src="logo-faty-almeida.jpg"
+            alt="Studio de Beleza Faty Almeida"
+            class="w-full h-full object-cover"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+          />
+          <div class="hidden w-full h-full items-center justify-center bg-gradient-to-br from-fuchsia-600 to-purple-900 text-amber-200 font-extrabold text-xs">FA</div>
+        </div>
+        <div>
+          <span class="block font-extrabold text-sm sm:text-base text-white leading-tight">Faty Almeida</span>
+          <span class="block text-[11px] font-semibold text-fuchsia-300">Studio de Beleza • Alagoinhas</span>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-6 text-xs font-bold text-stone-300">
+        <a href="#servicos" class="hover:text-fuchsia-300 transition">Especialidades</a>
+        <a href="#historia" class="hover:text-fuchsia-300 transition">23 Anos de História</a>
+        <a href="#espaco" class="hover:text-fuchsia-300 transition">Para Profissionais</a>
+      </nav>
+
+      <button onclick="agendarWhats('Olá! Vim pelo site do Studio de Beleza Faty Almeida e gostaria de agendar um horário.')"
+        class="bg-gradient-to-r from-fuchsia-500 to-pink-600 hover:from-fuchsia-400 hover:to-pink-500 text-white text-xs font-extrabold px-4 py-2.5 rounded-full shadow-lg shadow-fuchsia-600/25 transition cursor-pointer">
+        Agendar Horário
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="topo" class="hero-glow pt-12 pb-16 sm:pt-16 sm:pb-20 px-4 border-b border-fuchsia-950/70">
+    <div class="max-w-5xl mx-auto grid md:grid-cols-12 gap-8 items-center">
+      <div class="md:col-span-7 space-y-5 text-center md:text-left">
+        <div class="inline-flex items-center gap-2 bg-fuchsia-500/10 border border-fuchsia-400/30 text-amber-200 text-xs font-bold px-3.5 py-1.5 rounded-full">
+          <span>✨ 23 Anos Transformando Cabelos em Alagoinhas</span>
+        </div>
+
+        <h1 class="text-3xl sm:text-5xl font-extrabold text-white leading-[1.12] tracking-tight">
+          Loiros iluminados, saúde capilar e <span class="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-300 via-pink-400 to-amber-300">elegância que valoriza você.</span>
+        </h1>
+
+        <p class="text-sm sm:text-base text-stone-300 leading-relaxed max-w-xl mx-auto md:mx-0">
+          Do antigo <strong class="text-white">Oficina de Cabelos</strong> ao <strong class="text-fuchsia-300">Studio de Beleza Faty Almeida</strong>: mais de duas décadas de experiência em loiros, mechas, tratamentos e beleza completa.
+        </p>
+
+        <div class="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-3 pt-1">
+          <button onclick="agendarWhats('Olá! Gostaria de agendar uma avaliação capilar / horário no Studio Faty Almeida.')"
+            class="w-full sm:w-auto bg-gradient-to-r from-fuchsia-500 to-pink-600 hover:from-fuchsia-400 hover:to-pink-500 text-white font-extrabold text-sm px-7 py-4 rounded-2xl shadow-lg shadow-fuchsia-600/25 transition cursor-pointer">
+            Agendar pelo WhatsApp
+          </button>
+          <a href="#servicos"
+            class="w-full sm:w-auto bg-white/5 hover:bg-white/10 border border-fuchsia-400/30 text-stone-100 font-bold text-sm px-6 py-4 rounded-2xl transition text-center">
+            Conhecer Serviços ↓
+          </a>
+        </div>
+
+        <div class="grid grid-cols-3 gap-3 pt-4 max-w-md mx-auto md:mx-0">
+          <div class="bg-white/5 border border-fuchsia-900/60 rounded-2xl p-3 text-center">
+            <p class="text-lg sm:text-xl font-extrabold text-amber-300">23 anos</p>
+            <p class="text-[11px] text-stone-400">De experiência</p>
+          </div>
+          <div class="bg-white/5 border border-fuchsia-900/60 rounded-2xl p-3 text-center">
+            <p class="text-lg sm:text-xl font-extrabold text-fuchsia-300">14,2 mil+</p>
+            <p class="text-[11px] text-stone-400">Seguidoras</p>
+          </div>
+          <div class="bg-white/5 border border-fuchsia-900/60 rounded-2xl p-3 text-center">
+            <p class="text-lg sm:text-xl font-extrabold text-amber-300">100%</p>
+            <p class="text-[11px] text-stone-400">Personalizado</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card Rápido de Agendamento -->
+      <div class="md:col-span-5">
+        <div class="bg-[#1b0d1d] border border-fuchsia-500/30 rounded-3xl p-6 sm:p-7 shadow-2xl space-y-4">
+          <div class="flex items-center gap-3 pb-3 border-b border-fuchsia-950">
+            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-fuchsia-500 to-amber-400 text-stone-950 flex items-center justify-center font-extrabold text-xl shrink-0">
+              💇‍♀️
+            </div>
+            <div>
+              <h2 class="font-extrabold text-base text-white">Reserve seu Horário</h2>
+              <p class="text-xs text-stone-400">Atendimento direto no novo WhatsApp do Studio</p>
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <div>
+              <label class="block text-xs font-bold text-stone-300 mb-1">Seu nome</label>
+              <input id="clienteNome" type="text" placeholder="Ex.: Ana Paula"
+                class="w-full rounded-xl bg-[#120813] border border-fuchsia-900/80 focus:border-fuchsia-400 px-3.5 py-2.5 text-xs text-white focus:outline-none" />
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-stone-300 mb-1">O que você deseja fazer?</label>
+              <select id="clienteServico"
+                class="w-full rounded-xl bg-[#120813] border border-fuchsia-900/80 focus:border-fuchsia-400 px-3.5 py-2.5 text-xs text-white focus:outline-none">
+                <option value="Loiros / Luzes / Mechas">Loiros / Luzes / Mechas</option>
+                <option value="Transformação Capilar / Coloração">Transformação Capilar / Coloração</option>
+                <option value="Selagem / Alinhamento">Selagem / Alinhamento</option>
+                <option value="Tratamento Capilar / Couro Cabeludo Sensível">Tratamento Capilar / Couro Cabeludo</option>
+                <option value="Corte & Escova / Finalização">Corte &amp; Escova / Finalização</option>
+                <option value="Manicure & Pedicure">Manicure &amp; Pedicure</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-stone-300 mb-1">Preferência de dia</label>
+              <input id="clienteDia" type="text" placeholder="Ex.: Sexta-feira à tarde ou Sábado"
+                class="w-full rounded-xl bg-[#120813] border border-fuchsia-900/80 focus:border-fuchsia-400 px-3.5 py-2.5 text-xs text-white focus:outline-none" />
+            </div>
+
+            <button onclick="enviarAgendamentoStudio()"
+              class="w-full bg-emerald-500 hover:bg-emerald-400 text-stone-950 font-extrabold text-xs sm:text-sm py-3.5 rounded-xl shadow-lg shadow-emerald-500/20 transition cursor-pointer">
+              Confirmar no WhatsApp (75) 98112-0059 →
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Especialidades -->
+  <section id="servicos" class="py-16 px-4 max-w-5xl mx-auto">
+    <div class="text-center max-w-2xl mx-auto mb-10">
+      <span class="text-xs font-extrabold uppercase tracking-widest text-fuchsia-400">Menu de Beleza</span>
+      <h2 class="text-2xl sm:text-3xl font-extrabold text-white mt-1">Cuidado completo da raiz às pontas</h2>
+      <p class="text-xs sm:text-sm text-stone-400 mt-2">Toque no procedimento desejado para tirar dúvidas ou solicitar avaliação personalizada.</p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div class="bg-[#1b0d1d] border border-fuchsia-900/60 hover:border-fuchsia-400/60 rounded-2xl p-6 flex flex-col justify-between transition">
+        <div>
+          <span class="inline-block text-[11px] font-bold bg-amber-400/15 text-amber-300 px-3 py-1 rounded-full mb-3">Carro-Chefe</span>
+          <h3 class="text-lg font-extrabold text-white">Loiros, Luzes &amp; Mechas</h3>
+          <p class="text-xs text-stone-300 mt-2 leading-relaxed">
+            Técnicas personalizadas de iluminação e loiros saudáveis com diagnóstico prévio dos fios para preservar brilho e maciez.
+          </p>
+        </div>
+        <button onclick="agendarWhats('Olá! Gostaria de agendar uma avaliação para Loiros / Mechas no Studio Faty Almeida.')"
+          class="mt-5 text-left text-xs font-extrabold text-fuchsia-300 hover:text-amber-300 cursor-pointer">
+          Agendar avaliação de mechas →
+        </button>
+      </div>
+
+      <div class="bg-[#1b0d1d] border border-fuchsia-900/60 hover:border-fuchsia-400/60 rounded-2xl p-6 flex flex-col justify-between transition">
+        <div>
+          <span class="inline-block text-[11px] font-bold bg-fuchsia-500/15 text-fuchsia-300 px-3 py-1 rounded-full mb-3">Transformação</span>
+          <h3 class="text-lg font-extrabold text-white">Coloração &amp; Selagem</h3>
+          <p class="text-xs text-stone-300 mt-2 leading-relaxed">
+            Cobertura uniforme, correção de cor e alinhamento térmico com redução de frizz e movimento natural.
+          </p>
+        </div>
+        <button onclick="agendarWhats('Olá! Quero saber mais sobre Coloração / Selagem no Studio Faty Almeida.')"
+          class="mt-5 text-left text-xs font-extrabold text-fuchsia-300 hover:text-amber-300 cursor-pointer">
+          Consultar horários →
+        </button>
+      </div>
+
+      <div class="bg-[#1b0d1d] border border-fuchsia-900/60 hover:border-fuchsia-400/60 rounded-2xl p-6 flex flex-col justify-between transition">
+        <div>
+          <span class="inline-block text-[11px] font-bold bg-pink-500/15 text-pink-300 px-3 py-1 rounded-full mb-3">Terapia Capilar</span>
+          <h3 class="text-lg font-extrabold text-white">Tratamentos &amp; Couro Cabeludo</h3>
+          <p class="text-xs text-stone-300 mt-2 leading-relaxed">
+            Cronograma de hidratação, nutrição, reconstrução e protocolos suaves para quem tem couro cabeludo sensível.
+          </p>
+        </div>
+        <button onclick="agendarWhats('Olá! Gostaria de agendar um Tratamento Capilar no Studio Faty Almeida.')"
+          class="mt-5 text-left text-xs font-extrabold text-fuchsia-300 hover:text-amber-300 cursor-pointer">
+          Agendar tratamento →
+        </button>
+      </div>
+
+      <div class="bg-[#1b0d1d] border border-fuchsia-900/60 hover:border-fuchsia-400/60 rounded-2xl p-6 flex flex-col justify-between transition">
+        <div>
+          <span class="inline-block text-[11px] font-bold bg-amber-400/15 text-amber-300 px-3 py-1 rounded-full mb-3">Visagismo</span>
+          <h3 class="text-lg font-extrabold text-white">Cortes Feminino &amp; Masculino</h3>
+          <p class="text-xs text-stone-300 mt-2 leading-relaxed">
+            Cortes modernos, repicados, manutenção de pontas e escova modelada para o dia a dia ou eventos especiais.
+          </p>
+        </div>
+        <button onclick="agendarWhats('Olá! Gostaria de marcar Corte / Escova no Studio Faty Almeida.')"
+          class="mt-5 text-left text-xs font-extrabold text-fuchsia-300 hover:text-amber-300 cursor-pointer">
+          Marcar corte →
+        </button>
+      </div>
+
+      <div class="bg-[#1b0d1d] border border-fuchsia-900/60 hover:border-fuchsia-400/60 rounded-2xl p-6 flex flex-col justify-between transition">
+        <div>
+          <span class="inline-block text-[11px] font-bold bg-fuchsia-500/15 text-fuchsia-300 px-3 py-1 rounded-full mb-3">Mãos &amp; Pés</span>
+          <h3 class="text-lg font-extrabold text-white">Manicure &amp; Pedicure</h3>
+          <p class="text-xs text-stone-300 mt-2 leading-relaxed">
+            Cutilagem delicada, esmaltação impecável e cuidado completo para sair do salão renovada por inteiro.
+          </p>
+        </div>
+        <button onclick="agendarWhats('Olá! Gostaria de agendar Manicure e Pedicure no Studio Faty Almeida.')"
+          class="mt-5 text-left text-xs font-extrabold text-fuchsia-300 hover:text-amber-300 cursor-pointer">
+          Reservar horário →
+        </button>
+      </div>
+
+      <div id="espaco" class="bg-gradient-to-br from-fuchsia-950/80 to-[#1b0d1d] border border-amber-400/40 rounded-2xl p-6 flex flex-col justify-between">
+        <div>
+          <span class="inline-block text-[11px] font-bold bg-amber-400 text-stone-950 px-3 py-1 rounded-full mb-3">Oportunidade</span>
+          <h3 class="text-lg font-extrabold text-white">Aluguel de Cadeiras</h3>
+          <p class="text-xs text-stone-200 mt-2 leading-relaxed">
+            É cabeleireiro(a) e busca um ambiente climatizado, organizado e com estrutura profissional em Alagoinhas? Temos cadeiras disponíveis!
+          </p>
+        </div>
+        <button onclick="agendarWhats('Olá! Tenho interesse em informações sobre o aluguel de cadeiras no Studio Faty Almeida.')"
+          class="mt-5 text-left text-xs font-extrabold text-amber-300 hover:text-white cursor-pointer">
+          Falar sobre parceria →
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- História -->
+  <section id="historia" class="py-14 px-4 max-w-5xl mx-auto">
+    <div class="bg-[#1b0d1d] border border-fuchsia-900/70 rounded-3xl p-6 sm:p-10 flex flex-col md:flex-row items-center justify-between gap-6">
+      <div class="space-y-2 max-w-2xl">
+        <span class="text-xs font-extrabold uppercase tracking-widest text-amber-300">Tradição &amp; Confiança</span>
+        <h2 class="text-2xl font-extrabold text-white">23 anos cuidando da autoestima de Alagoinhas</h2>
+        <p class="text-xs sm:text-sm text-stone-300 leading-relaxed">
+          Conhecido por gerações como <strong class="text-white">Oficina de Cabelos</strong>, o Studio de Beleza Faty Almeida une experiência consolidada, técnicas atualizadas e atendimento acolhedor para cada cliente.
+        </p>
+      </div>
+      <button onclick="agendarWhats('Olá! Quero agendar um horário no Studio de Beleza Faty Almeida.')"
+        class="shrink-0 bg-gradient-to-r from-fuchsia-500 to-pink-600 hover:from-fuchsia-400 hover:to-pink-500 text-white font-extrabold text-xs sm:text-sm px-6 py-4 rounded-2xl transition cursor-pointer">
+        Falar no WhatsApp Agora
+      </button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-fuchsia-950/70 py-8 px-4 text-center text-xs text-stone-500">
+    <p><strong class="text-white">Studio de Beleza Faty Almeida</strong> • Alagoinhas - BA • WhatsApp: (75) 98112-0059</p>
+    <p class="mt-1">Modelo demonstrativo desenvolvido por <a href="https://atlaswebbr.github.io/Atlas-web-Demostra-es/" target="_blank" class="text-fuchsia-400 font-bold hover:underline">Atlas Web</a></p>
+  </footer>
+
+  <script>
+    function agendarWhats(texto) {
+      const url = "https://wa.me/" + STUDIO_CONFIG.whatsapp + "?text=" + encodeURIComponent(texto);
+      window.open(url, "_blank", "noopener,noreferrer");
+    }
+
+    function enviarAgendamentoStudio() {
+      const nome = (document.getElementById("clienteNome").value || "").trim();
+      const servico = document.getElementById("clienteServico").value;
+      const dia = (document.getElementById("clienteDia").value || "A combinar").trim();
+      const saudacao = nome ? `Olá! Meu nome é ${nome}.` : "Olá!";
+      const msg = `${saudacao} Vim pelo site do Studio Faty Almeida e gostaria de agendar: *${servico}* (preferência: *${dia}*).`;
+      agendarWhats(msg);
+    }
+  </script>
+</body>
+</html>
